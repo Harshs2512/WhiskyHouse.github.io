@@ -1,0 +1,77 @@
+body {
+    background: rgb(244, 244, 244);
+}
+
+.form-control {
+    width: 25vw;
+    border: none;
+    border-color: brown;
+}
+
+.navbar-expand-lg {
+    position: relative;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.form-control:focus {
+    width: 35vw;
+    border-color: black;
+    transition: 0.2s linear;
+}
+
+nav ul li a:hover {
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+}
+
+.carousel-control-prev {
+    margin-left: 0px;
+}
+
+.carousel-control-next {
+    margin-right: 0px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(228, 71, 71);
+}
+
+.social .nav-link:hover {
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+}
+
+.address {
+    opacity: 0;
+
+}
+
+.address:hover {
+    transition: all 0.5s linear;
+    opacity: 1;
+}
+
+.devider {
+    height: 13px;
+    background-image: url(photos/divider.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+}
+
+.buyimg:hover {
+    transform: scale(1.1);
+    transition: 0.2s linear;
+}
+
+.mybuy {
+    background-color: rgb(255, 255, 255);
+}
